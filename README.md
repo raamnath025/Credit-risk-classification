@@ -1,7 +1,7 @@
 # Credit Risk Classification
 
 ## Description
-This project aims to leverage various machine learning techniques to train and evaluate the performance of Logistic Regression Models in identifying the creditworthiness of borrowers. The models were trained using different methods, and their performances were compared to determine the better-performing model. The predictive variables in the model are the labels `0` (healthy loan) and `1` (high-risk loan).
+The objective of this project is to utilize diverse machine learning techniques for training and assessing the effectiveness of Logistic Regression Models in discerning the creditworthiness of borrowers. Multiple methodologies were employed to train these models, and their performances were compared to identify the superior-performing model. The predictive variables within the model consist of two labels: `0` (representing a healthy loan) and `1` (indicating a high-risk loan).
 
 ## Steps
 In the process of constructing the models, the dataset was split into features and labels, and further divided into training and testing sets. 
@@ -15,11 +15,11 @@ The performance of each model was evaluated based on the balance accuracy score,
 ## Results
 - **Machine Learning Model 1:**
 
-  Model 1, trained on the original data, gives an accuracy of 94.4% in predicting the 2 labels. The model is very good at predicting the healthy loans, with both precision and recall scores of 1.00. However, the model's performance in predicting the high-risk loans can be improved. The precision score for high-risk loans is 0.87, indicating that only 87% of actual high-risk loans were correctly predicted. The recall score for high-risk loans is 0.89, indicating that the model only identified 89% of all high-risk loans in the dataset.
+  Model 1, trained on the original data, achieves an accuracy of 94.4% when predicting the two labels. The model exhibits excellent proficiency in predicting healthy loans, as evidenced by perfect precision and recall scores of 1.00. However, there is room for improvement in the model's performance when it comes to predicting high-risk loans. The precision score for high-risk loans stands at 0.87, indicating that only 87% of the actual high-risk loans were correctly predicted. Similarly, the recall score for high-risk loans is 0.89, implying that the model identified only 89% of all high-risk loans present in the dataset.
 
 - **Machine Learning Model 2:**
 
-  Model 2 , trained on the resampled data, has an accuracy of 99.6% in predicting the 2 labels. The model peforms well at predicting the healthy loans, with both precision and recall scores of 1.00. The precision score for high-risk loans remains at 0.87, but the recall score has improved to 1.00, indicating that the model can now predicting all high-risk loans in the dataset.
+  Model 2, trained on resampled data, demonstrates exceptional performance with a remarkable accuracy of 99.6% in accurately predicting the two labels. Notably, this model exhibits excellent precision and recall scores of 1.00 for predicting healthy loans, indicating that it can effectively identify all healthy loans in the dataset. Furthermore, although the precision score for high-risk loans remains at a commendable 0.87, the recall score has shown significant improvement, reaching a perfect score of 1.00. This improvement suggests that the model is now capable of accurately predicting all high-risk loans present in the dataset.
 
 ## Summary  
-Based on the analysis, it appears that **Model 2** outperforms Model 1 in predicting high-risk loans and has an overall higher accuracy in predicting both labels. Specifically, Model 2 achieved a relatively high precision in predicting high-risk loans while correctly identifying all high-risk loans in the dataset, which is considered a relatively good performance in this context. Therefore, I would recommend using Model 2 in identifying high-risk loans and overall better accuracy in predicting labels.
+After conducting an analysis, it has been determined that **Model 2** exhibits superior performance compared to Model 1 in the prediction of high-risk loans. Additionally, Model 2 demonstrates higher accuracy overall in predicting both types of labels. Notably, Model 2 displays a notably high precision in identifying high-risk loans and successfully identifies all high-risk loans within the dataset. Such performance is considered commendable in this context. Consequently, it is recommended to employ Model 2 for the identification of high-risk loans and for achieving improved accuracy in label predictions.
